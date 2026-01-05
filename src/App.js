@@ -21,6 +21,42 @@ function App() {
             name="description"
             content="Professional security services across Bangalore, Mandya, and Ramanagara."
           />
+
+          <meta
+            property="og:url"
+            content="https://suryaputra-security.netlify.app/"
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="Suryaputra Securities | Trusted Security Agency"
+          />
+          <meta
+            property="og:description"
+            content="Professional security services across Bangalore, Mandya, and Ramanagara."
+          />
+          <meta property="og:image" content="/assets/images/logo.webp" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta
+            property="twitter:domain"
+            content="suryaputra-security.netlify.app"
+          />
+          <meta
+            property="twitter:url"
+            content="https://suryaputra-security.netlify.app/"
+          />
+          <meta
+            name="twitter:title"
+            content="Suryaputra Securities | Trusted Security Agency"
+          />
+          <meta
+            name="twitter:description"
+            content="Professional security services across Bangalore, Mandya, and Ramanagara."
+          />
+          <meta name="twitter:image" content="/assets/images/logo.webp" />
+
+          <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         </Helmet>
       </>
 
