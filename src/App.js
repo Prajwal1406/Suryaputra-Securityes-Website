@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 // Import Components
 import Navbar from "./components/Navbar";
@@ -13,6 +14,16 @@ import Contact from "./pages/Contact"; // Make sure you created this file
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
+      <>
+        <Helmet>
+          <title>Suryaputra Securities | Trusted Security Agency</title>
+          <meta
+            name="description"
+            content="Professional security services across Bangalore, Mandya, and Ramanagara."
+          />
+        </Helmet>
+      </>
+
       {/* 1. Navbar sits at the top, outside Routes */}
       <Navbar />
 
