@@ -59,33 +59,33 @@ const Contact = () => {
                   <h3 className="text-lg font-bold text-slate-900">Call Us</h3>
                   <div className="mt-2 space-y-2">
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
-                      <span>Office:</span>{" "}
+                      <span>Prakash Babu: </span>{" "}
                       <span className="font-mono text-slate-900">
                         7892991767
                       </span>
                     </p>
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
-                      <span>Mobile 1:</span>{" "}
+                      <span>Madhusudhan:</span>{" "}
                       <span className="font-mono text-slate-900">
                         7019707641
                       </span>
                     </p>
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
-                      <span>Mobile 2:</span>{" "}
+                      <span>Ramu:</span>{" "}
                       <span className="font-mono text-slate-900">
                         9141368231
                       </span>
                     </p>
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
-                      <span>Landline:</span>{" "}
-                      <span className="font-mono text-slate-900">
-                        08232229478
-                      </span>
-                    </p>
-                    <p className="flex justify-between text-slate-600 pt-1">
                       <span>Venu:</span>{" "}
                       <span className="font-mono text-slate-900">
                         9480076003
+                      </span>
+                    </p>
+                    <p className="flex justify-between text-slate-600 pt-1">
+                      <span>Landline:</span>{" "}
+                      <span className="font-mono text-slate-900">
+                        08232229478
                       </span>
                     </p>
                   </div>

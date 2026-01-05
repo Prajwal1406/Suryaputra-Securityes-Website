@@ -66,7 +66,7 @@ const Footer = () => {
             </p>
             <p className="flex items-center">
               <Mail className="w-4 h-4 mr-3 text-blue-500" />{" "}
-              mar3ps23062025@gmail.com
+              sps23062025@gmail.com
             </p>
             <p className="flex items-center">
               <MapPin className="w-4 h-4 mr-3 text-blue-500" /> Jagadish Nagar,
