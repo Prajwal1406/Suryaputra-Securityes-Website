@@ -153,7 +153,13 @@ const About = ({ onContactClick }) => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center hover:-translate-y-1 transition-transform">
               <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <Users className="w-10 h-10 text-slate-400" />
+                <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden">
+                  <img
+                    src="/assets/images/PrakashBabu.jpeg"
+                    alt="Prakash Babu"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
               </div>
               <h3 className="text-lg font-bold text-slate-900">
                 Prakash Babu (B.E.)
@@ -193,7 +199,13 @@ const About = ({ onContactClick }) => {
             </div>
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center hover:-translate-y-1 transition-transform">
               <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <Users className="w-10 h-10 text-slate-400" />
+                <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden">
+                  <img
+                    src="/assets/images/Venu.jpeg"
+                    alt="Venu"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
               </div>
               <h3 className="text-lg font-bold text-slate-900">Venu</h3>
               <p className="text-sm text-blue-600 font-medium mb-3">
@@ -256,9 +268,9 @@ const About = ({ onContactClick }) => {
                   </span>
                 </div>
                 <div className="grid grid-cols-3 gap-4 border-b border-slate-700 pb-2">
-                  <span className="text-slate-400 col-span-1">Bank</span>
+                  <span className="text-slate-400 col-span-1">Bank/Branch</span>
                   <span className="text-white col-span-2 text-right">
-                    Bank of Baroda
+                    Bank of Baroda/Mandya
                   </span>
                 </div>
                 <div className="grid grid-cols-3 gap-4 border-b border-slate-700 pb-2">

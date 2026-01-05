@@ -237,7 +237,7 @@ const Home = () => {
                 {
                   title: "Housekeeping",
                   sub: "Cleaning & Maintenance Staff",
-                  img: "https://images.unsplash.com/photo-1581578731117-104f8a3d46a8?auto=format&fit=crop&q=80",
+                  img: "https://assets1.hospitalitytech.com/images/v/max_width_1440/2022-05/shutterstock_1628546512.jpg",
                 },
               ].map((service, index) => (
                 <div

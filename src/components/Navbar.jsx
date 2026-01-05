@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Shield, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,13 +10,18 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo Section */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <Shield className="h-8 w-8 text-blue-400 group-hover:text-blue-300 transition-colors" />
+          <Link to="/" className="flex items-center space-x-3 group">
+            <img
+              src="https://preview.redd.it/minimalist-line-art-of-lord-hanuman-felt-peace-while-v0-7tkkz8c3v5ze1.jpeg?auto=webp&s=92fd5e6d77eb164cd5b14c0099712c0138cd931a"
+              alt="Company Logo"
+              className="h-12 w-12 rounded-full group-hover:opacity-90 transition duration-200"
+            />
+
             <div className="flex flex-col">
-              <span className="font-bold text-xl tracking-wide leading-none">
+              <span className="font-bold text-2xl tracking-wide leading-tight text-white">
                 SURYAPUTRA
               </span>
-              <span className="text-[10px] text-gray-400 tracking-wider">
+              <span className="text-sm text-blue-300 tracking-wider">
                 SECURITIES
               </span>
             </div>
