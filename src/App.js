@@ -38,7 +38,7 @@ function App() {
             property="og:description"
             content="Professional security services across Bangalore, Mandya, and Ramanagara."
           />
-          <meta property="og:image" content="/assets/images/logo.webp" />
+          <meta property="og:image" content="/assets/images/logo.png" />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta
@@ -57,7 +57,7 @@ function App() {
             name="twitter:description"
             content="Suryaputra Securities offers professional security guards, supervisors, and maintenance staff with 39+ years of leadership experience. Serving Bangalore, Mandya, and Ramanagara."
           />
-          <meta name="twitter:image" content="/assets/images/logo.webp" />
+          <meta name="twitter:image" content="/assets/images/logo.png" />
 
           <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         </Helmet>
