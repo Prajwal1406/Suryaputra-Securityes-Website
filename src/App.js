@@ -16,10 +16,13 @@ function App() {
     <div className="flex flex-col min-h-screen">
       <>
         <Helmet>
-          <title>Suryaputra Securities | Trusted Security Agency</title>
+          <title>
+            Suryaputra Securities | Security Services in Bangalore, Mandya &
+            Ramanagara
+          </title>
           <meta
             name="description"
-            content="Professional security services across Bangalore, Mandya, and Ramanagara."
+            content="Suryaputra Securities offers professional security guards, supervisors, and maintenance staff with 39+ years of leadership experience. Serving Bangalore, Mandya, and Ramanagara."
           />
 
           <meta
@@ -29,7 +32,7 @@ function App() {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Suryaputra Securities | Trusted Security Agency"
+            content="Suryaputra Securities | Security Services in Bangalore, Mandya & Ramanagara"
           />
           <meta
             property="og:description"
@@ -48,11 +51,11 @@ function App() {
           />
           <meta
             name="twitter:title"
-            content="Suryaputra Securities | Trusted Security Agency"
+            content="Suryaputra Securities | Security Services in Bangalore, Mandya & Ramanagara"
           />
           <meta
             name="twitter:description"
-            content="Professional security services across Bangalore, Mandya, and Ramanagara."
+            content="Suryaputra Securities offers professional security guards, supervisors, and maintenance staff with 39+ years of leadership experience. Serving Bangalore, Mandya, and Ramanagara."
           />
           <meta name="twitter:image" content="/assets/images/logo.webp" />
 
