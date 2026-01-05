@@ -71,7 +71,7 @@ const Contact = () => {
                       </span>
                     </p>
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
-                      <span>Ramu:</span>{" "}
+                      <span>Ramesh:</span>{" "}
                       <span className="font-mono text-slate-900">
                         9141368231
                       </span>

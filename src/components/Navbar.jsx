@@ -66,8 +66,6 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
-      {/* Mobile Menu Dropdown */}
       {/* Mobile Menu Dropdown */}
       <div
         className={`md:hidden bg-slate-800 border-t border-slate-700 transform transition-all duration-300 ease-in-out overflow-hidden ${

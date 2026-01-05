@@ -175,7 +175,7 @@ const About = ({ onContactClick }) => {
               <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden">
                   <img
-                    src="/assets/images/madusudan.jpeg"
+                    src="/assets/images/Madhusudan.jpeg"
                     alt="Madhususan"
                     className="w-full h-full object-cover object-top"
                   />
@@ -193,9 +193,15 @@ const About = ({ onContactClick }) => {
             </div>
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 text-center hover:-translate-y-1 transition-transform">
               <div className="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                <Users className="w-10 h-10 text-slate-400" />
+                <div className="w-20 h-20 rounded-full mx-auto mb-4 overflow-hidden">
+                  <img
+                    src="/assets/images/Ramesh.jpeg"
+                    alt="Ramesh"
+                    className="w-full h-full object-cover object-top"
+                  />
+                </div>
               </div>
-              <h3 className="text-lg font-bold text-slate-900">T.R. Ramu</h3>
+              <h3 className="text-lg font-bold text-slate-900">T.R. Ramesh</h3>
               <p className="text-sm text-blue-600 font-medium mb-3">
                 Operations
               </p>
