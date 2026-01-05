@@ -68,40 +68,45 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Dropdown */}
-      {isOpen && (
-        <div className="md:hidden bg-slate-800 border-t border-slate-700">
-          <div className="px-4 py-3 space-y-3">
-            <Link
-              to="/"
-              onClick={() => setIsOpen(false)}
-              className="block text-gray-300 hover:text-white"
-            >
-              Home
-            </Link>
-            <Link
-              to="/about"
-              onClick={() => setIsOpen(false)}
-              className="block text-gray-300 hover:text-white"
-            >
-              About Us
-            </Link>
-            <Link
-              to="/services"
-              onClick={() => setIsOpen(false)}
-              className="block text-gray-300 hover:text-white"
-            >
-              Services
-            </Link>
-            <Link
-              to="/contact"
-              onClick={() => setIsOpen(false)}
-              className="block text-blue-400 font-bold"
-            >
-              Contact Now
-            </Link>
-          </div>
+      {/* Mobile Menu Dropdown */}
+      <div
+        className={`md:hidden bg-slate-800 border-t border-slate-700 transform transition-all duration-300 ease-in-out overflow-hidden ${
+          isOpen
+            ? "max-h-96 opacity-100 scale-y-100"
+            : "max-h-0 opacity-0 scale-y-0"
+        }`}
+      >
+        <div className="px-4 py-3 space-y-3">
+          <Link
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className="block text-gray-300 hover:text-white"
+          >
+            Home
+          </Link>
+          <Link
+            to="/about"
+            onClick={() => setIsOpen(false)}
+            className="block text-gray-300 hover:text-white"
+          >
+            About Us
+          </Link>
+          <Link
+            to="/services"
+            onClick={() => setIsOpen(false)}
+            className="block text-gray-300 hover:text-white"
+          >
+            Services
+          </Link>
+          <Link
+            to="/contact"
+            onClick={() => setIsOpen(false)}
+            className="block text-blue-400 font-bold"
+          >
+            Contact Now
+          </Link>
         </div>
-      )}
+      </div>
     </nav>
   );
 };
