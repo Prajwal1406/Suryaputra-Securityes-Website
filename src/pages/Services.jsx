@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import {
   Users,
   Briefcase,
@@ -12,6 +13,7 @@ import {
 } from "lucide-react";
 
 const Services = ({ onContactClick }) => {
+  const navigate = useNavigate();
   return (
     <div className="flex-grow bg-gray-50 animate-in fade-in duration-500">
       {/* Services Hero */}
@@ -69,7 +71,7 @@ const Services = ({ onContactClick }) => {
                 </li>
               </ul>
               <button
-                onClick={onContactClick}
+                onClick={() => navigate("/contact")}
                 className="text-blue-700 font-bold hover:text-blue-900 flex items-center"
               >
                 Request Security Assessment{" "}
@@ -132,7 +134,7 @@ const Services = ({ onContactClick }) => {
                 </li>
               </ul>
               <button
-                onClick={onContactClick}
+                onClick={() => navigate("/contact")}
                 className="text-green-700 font-bold hover:text-green-900 flex items-center"
               >
                 Get Cleaning Quote <ArrowRight className="ml-2 w-4 h-4" />
@@ -194,7 +196,7 @@ const Services = ({ onContactClick }) => {
             Contact us for a free site survey and quotation.
           </p>
           <button
-            onClick={onContactClick}
+            onClick={() => navigate("/contact")}
             className="bg-yellow-500 hover:bg-yellow-400 text-slate-900 font-bold py-3 px-8 rounded-full transition-colors duration-300 inline-flex items-center"
           >
             Contact Us Now <Send className="ml-2 w-4 h-4" />

@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import {
   Shield,
   FileCheck,
@@ -11,6 +12,7 @@ import {
 // 1. ABOUT COMPONENT (Copy to about.jsx)
 // ==========================================
 const About = ({ onContactClick }) => {
+  const navigate = useNavigate();
   return (
     <div className="flex-grow bg-gray-50 animate-in fade-in duration-500">
       {/* Hero Section */}
@@ -312,7 +314,7 @@ const About = ({ onContactClick }) => {
             Contact us today for a customized security plan.
           </p>
           <button
-            onClick={onContactClick}
+            onClick={() => navigate("/contact")}
             className="bg-slate-900 hover:bg-slate-800 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 inline-flex items-center"
           >
             Get in Touch <Send className="ml-2 w-4 h-4" />
