@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4">
             <span className="bg-slate-800 p-2 rounded text-xs border border-slate-700">
-              GSTN: 29AFOFS72471122
+              GSTN: 29AFQFS7247J1Z2
             </span>
             <span className="bg-slate-800 p-2 rounded text-xs border border-slate-700">
               UDYAM-KR-03-0575913

@@ -246,7 +246,7 @@ const About = ({ onContactClick }) => {
               <div className="bg-slate-800 rounded-lg p-6 space-y-4 border border-slate-700">
                 <div className="flex justify-between border-b border-slate-700 pb-2">
                   <span className="text-slate-400">GSTN</span>
-                  <span className="font-mono text-white">29AFOFS72471122</span>
+                  <span className="font-mono text-white">29AFQFS7247J1Z2</span>
                 </div>
                 <div className="flex justify-between border-b border-slate-700 pb-2">
                   <span className="text-slate-400">PAN</span>
@@ -261,7 +261,7 @@ const About = ({ onContactClick }) => {
                 <div className="flex justify-between pt-2">
                   <span className="text-slate-400">Reg No</span>
                   <span className="font-mono text-white">
-                    32/58/5/0114/2025
+                    32/58/S/0114/2025
                   </span>
                 </div>
               </div>
