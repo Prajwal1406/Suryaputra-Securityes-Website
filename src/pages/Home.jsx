@@ -232,7 +232,7 @@ const Home = () => {
                 {
                   title: "Security Manpower",
                   sub: "Guards, Supervisors & Officers",
-                  img: "https://images.unsplash.com/photo-1555436169-20e93ea9a7ff?auto=format&fit=crop&q=80",
+                  img: "assets/images/homepage.png",
                 },
                 {
                   title: "Housekeeping",
