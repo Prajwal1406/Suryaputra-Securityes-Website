@@ -292,10 +292,16 @@ const About = ({ onContactClick }) => {
                     73870200001567
                   </span>
                 </div>
-                <div className="grid grid-cols-3 gap-4 pt-2">
+                <div className="grid grid-cols-3 gap-4 border-b border-slate-700 pb-2">
                   <span className="text-slate-400 col-span-1">IFSC</span>
                   <span className="font-mono text-white col-span-2 text-right">
                     BARB0VJMAMA
+                  </span>
+                </div>
+                <div className="grid grid-cols-3 gap-4 pt-2">
+                  <span className="text-slate-400 col-span-1">MICR</span>
+                  <span className="font-mono text-white col-span-2 text-right">
+                    571012520
                   </span>
                 </div>
               </div>
