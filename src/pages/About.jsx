@@ -5,10 +5,8 @@ import {
   FileCheck,
   Briefcase,
   Building2,
-  CheckCircle2,
   Send,
   MapPin,
-  Users,
   Award
 } from "lucide-react";
 
