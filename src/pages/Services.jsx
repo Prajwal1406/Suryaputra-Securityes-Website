@@ -81,7 +81,7 @@ const Services = ({ onContactClick }) => {
             <div className="order-1 lg:order-2">
               <div className="rounded-2xl overflow-hidden shadow-xl aspect-video relative">
                 <img
-                  src="https://images.unsplash.com/photo-1555436169-20e93ea9a7ff?auto=format&fit=crop&q=80"
+                  src="/assets/images/homepage.png"
                   alt="Security Guard"
                   className="w-full h-full object-cover"
                 />
