@@ -67,13 +67,13 @@ const Contact = () => {
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
                       <span>Madhusudhan:</span>{" "}
                       <span className="font-mono text-slate-900">
-                        7019707641
+                        7019207641
                       </span>
                     </p>
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
                       <span>Ramesh:</span>{" "}
                       <span className="font-mono text-slate-900">
-                        9141368231
+                        9141388231
                       </span>
                     </p>
                     <p className="flex justify-between text-slate-600 border-b border-gray-100 pb-1">
@@ -85,7 +85,7 @@ const Contact = () => {
                     <p className="flex justify-between text-slate-600 pt-1">
                       <span>Landline:</span>{" "}
                       <span className="font-mono text-slate-900">
-                        08232229478
+                        08232796298
                       </span>
                     </p>
                   </div>
